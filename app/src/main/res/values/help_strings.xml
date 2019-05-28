@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="help_text">Hash Droid is a free utility to calculate a hash
+		from a given text or from a file stored on the device.
+		\n\nIn this
+		application, the available hash functions are: Adler-32, CRC-32,
+		Haval-128, MD2, MD4, MD5, RIPEMD-128, RIPEMD-160, SHA-1, SHA-256,
+		SHA-384, SHA-512, Tiger and Whirlpool.
+		\nThe calculated hash can be
+		copied to the clipboard to be reused
+		elsewhere.
+		\n\nThe first tab
+		enables to calculate the hash of a given string.
+		\nThe second tab helps
+		you to compute the hash of a file located on the
+		internal or external
+		memory of your device. The size of the file and
+		the last date modified
+		are also displayed.
+		\nThe last feature helps you to compare the
+		calculated hash with another
+		given hash but more generally, you can
+		compare any hashes by just
+		pasting them.
+		\n\nA hash (also called
+		checksum or digest) is a digital fingerprint,
+		uniquely identifying a
+		string or a file.
+		\nHash functions are often used in cryptography to
+		generate strong
+		passwords. They are also employed to check the
+		integrity of files.\nHash Droid is often used to check an Android ROM before flashing it.\n\nFeel free to send feebacks, comments or
+		suggestions about this
+		application.\n\nHash Droid is published under
+		the GPLv3 (GNU General Public License version 3). Please contact me to
+		get the source code.</string>
+    <string name="changelog_text">Changelog of Hash Droid versions:
+		\n\nv4.2:
+		\n* Reduced application size
+		\n\nv4.1:
+		\n* Fixed a crash
+		\n* Cleaned useless elements
+		\n\nv4.0:
+		\n* Integrated default file chooser
+		\n* Internal improvements
+		\n\nv3.3:
+		\n* Improved Nougat compatibility
+		\n* Removed the background gradient
+        \n\nv3.2:
+		\n* Added external storage read permission for KitKat
+	    \n\nv3.1:
+		\n* Homogenization of user interface
+		\n* Internal improvements
+	    \n\nv3.0:
+		\n* Applied ICS default theme
+		\n* Modified the icon of the application
+		\n* Modified the background color
+	    \n\nv2.4:
+		\n* Improved compatibility with ICS
+		\n\nv2.3:
+		\n* Added upper case option
+		\n* Reduced the text size in the
+		file browser and sorted directories before files
+		\n* Added rate it
+		button to the menu
+		\n* Removed quit button from the menu
+		\n\nv2.2:
+		\n*
+		Published under the GPL
+		\n\nv2.1:
+		\n* Minor internal improvements
+		\n\nv2.0:
+		\n* Added new hash functions: Haval-128, MD2, MD4,
+		RIPEMD-128, RIPEMD-160, Tiger, Whirlpool
+		\n\nv1.7:
+		\n*
+		Fixed a bug that
+		may affect the file browser
+		\n* Fixed a crash when the
+		file does not
+		exist
+		\n* Internal improvements
+		\n\nv1.6:
+		\n*
+		Added
+		CRC-32
+		and Adler-32
+		functions
+		\n* Added the direct browse to the
+		previous
+		selected file path
+		\n* Removed the useless line of the current
+		directory from the file
+		browser
+		\n\nv1.5:
+		\n*
+		Fixed a crash when
+		rotating the device
+		\n* Fixed the
+		reset of display
+		when changing the
+		orientation of the device
+		\n\nv1.4:
+		\n*
+		Added ignore
+		case mode when
+		comparing hashes
+		\n* Added gradient
+		background
+		\n*
+		Corrected minor bugs in
+		the user interface
+		\n\nv1.3:
+		\n*
+		Added file\'s
+		date modified
+		\n* Formatted
+		display of
+		results
+		\n*
+		Modified
+		name of buttons
+		in confirmation panel of
+		the file
+		browser
+		\n*
+		Corrected
+		minor bugs
+		\n\nv1.2:
+		\n* Added file size
+		\n*
+		Added
+		help menu
+		\n* Fixed
+		case
+		sensitivity
+		problem when sorting elements in
+		the file
+		browser
+		\n*
+		Changed
+		quit icon
+		\n\nv1.1:
+		\n* Correction of some
+		bugs with
+		unreadable
+		files
+		\n*
+		Enriched the file browser
+		\n* Improvements
+		in
+		management of error
+		messages
+		\n\nv1.0:
+		\n* Initial release</string>
+
+</resources>

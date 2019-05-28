@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:scrollbarSize="12dip">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="5dip"
+			android:text="@string/AlgoList" />
+		<Spinner android:id="@+id/spinner" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:prompt="@string/AlgoList" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="5dip"
+			android:text="@string/input_txt" />
+		<EditText android:id="@+id/edittext" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<CheckBox android:id="@+id/UpperCaseCB"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/cb_upper_case" />
+		<RelativeLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<Button android:id="@+id/ClearButton" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true" android:layout_marginLeft="5dip"
+				android:text="@string/clear_but" />
+			<Button android:id="@+id/GenerateButton" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_toLeftOf="@id/ClearButton"
+				android:layout_alignTop="@id/ClearButton" android:text="@string/calculate_but" />
+			<TextView android:id="@+id/label_result"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@+id/GenerateButton"/>
+			<Button android:id="@+id/CopyButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_below="@+id/label_result"
+				android:text="@string/copy_but" android:visibility="invisible" />
+		</RelativeLayout>
+	</LinearLayout>
+</ScrollView>

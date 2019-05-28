@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Hash Droid</string>
+	<string name="tab_text">Hash a text</string>
+	<string name="tab_file">Hash a file</string>
+	<string name="tab_compare">Compare hashes</string>
+	<string name="input_txt">Input the text to hash:</string>
+	<string name="Text">Text: %1$s\n</string>
+	<string name="FileName">Name: %1$s\n</string>
+	<string name="FileSize">Size: %1$s\n</string>
+	<string name="FileDateModified">Date modified: %1$s %2$s\n</string>
+	<string name="Hash">%1$s checksum: %2$s</string>
+	<string name="but_title_select_file">Click here to select the file to hash</string>
+	<string name="cb_upper_case">Result in upper case</string>
+	<string name="unable_to_calculate">Unable to calculate the checksum of %1$s</string>
+	<string name="wrong_file">The file does not exist</string>
+	<string name="calculate_but">Calculate</string>
+	<string name="clear_but">Clear</string>
+	<string name="copy_but">Copy checksum to clipboard</string>
+	<string name="Ok_but">OK</string>
+	<string name="Cancel_but">Cancel</string>
+	<string name="Yes_but">Yes</string>
+	<string name="No_but">No</string>
+	<string name="Close_but">Close</string>
+	<string name="copied">Hash copied to clipboard</string>
+	<string name="label_menu_about">About</string>
+	<string name="label_menu_rateit">Rate it</string>
+	<string name="label_menu_help">Help</string>
+	<string name="selectedfile_confirmation">Do you want to compute the file %1$s ?</string>
+	<string name="selectedfile_error">%1$s cannot be read!</string>
+	<string name="version">Version</string>
+	<string name="copyright">Copyright © 2010&#8211;2019 Christophe Bouyer (Hobby One)</string>
+	<string name="LicenseTitle">Licensed under the GPLv3</string>
+	<string name="License">This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.\nThis program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.\nYou should have received a copy of the GNU General Public License
+    along with this program. If not, see http://www.gnu.org/licenses/</string>
+	<string name="contact">hobbyone.droid@gmail.com</string>
+	<string name="AlgoList">Select a hash function:</string>
+	<string name="Calculating">Calculating&#8230;</string>
+	<string-array name="Algo_Array">
+		<item>Adler-32</item>
+		<item>CRC-32</item>
+		<item>Haval-128</item>
+		<item>MD2</item>
+		<item>MD4</item>
+		<item>MD5</item>
+		<item>RIPEMD-128</item>
+		<item>RIPEMD-160</item>
+		<item>SHA-1</item>
+		<item>SHA-256</item>
+		<item>SHA-384</item>
+		<item>SHA-512</item>
+		<item>Tiger</item>
+		<item>Whirlpool</item>
+	</string-array>
+	<string name="input_txt1">Input the first hash value:</string>
+	<string name="input_txt2">Input the second hash value:</string>
+	<string name="compare_but">Compare</string>
+	<string name="IdenticalHashes">Hashes match!</string>
+	<string name="DifferentHashes">Hashes do not match!</string>
+</resources>
