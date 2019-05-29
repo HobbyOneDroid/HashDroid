@@ -1,33 +1,29 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:installLocation="auto"
-    package="com.hobbyone.HashDroid">
+    package="com.hobbyone.HashDroid"
+    android:installLocation="auto">
 
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
         android:normalScreens="true"
         android:resizeable="true"
-        android:smallScreens="true" >
-    </supports-screens>
+        android:smallScreens="true"></supports-screens>
 
     <application
-        android:label="@string/app_name"
-        android:icon="@mipmap/icon" >
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name">
         <activity
             android:name=".MainActivity"
             android:configChanges="keyboardHidden|orientation"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TextActivity" >
-        </activity>
-        <activity android:name=".FileActivity" >
-        </activity>
-        <activity android:name=".CompareActivity" >
-        </activity>
+        <activity android:name=".TextActivity"></activity>
+        <activity android:name=".FileActivity"></activity>
+        <activity android:name=".CompareActivity"></activity>
     </application>
 
 </manifest>

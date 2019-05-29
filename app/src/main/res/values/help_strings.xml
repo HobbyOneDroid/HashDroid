@@ -33,9 +33,10 @@
 		integrity of files.\nHash Droid is often used to check an Android ROM before flashing it.\n\nFeel free to send feebacks, comments or
 		suggestions about this
 		application.\n\nHash Droid is published under
-		the GPLv3 (GNU General Public License version 3). Please contact me to
-		get the source code.</string>
+		the GPLv3 (GNU General Public License version 3). The source code is available here: https://github.com/HobbyOneDroid/HashDroid</string>
     <string name="changelog_text">Changelog of Hash Droid versions:
+		\n\nv4.3:
+		\n* Added link to GitHub
 		\n\nv4.2:
 		\n* Reduced application size
 		\n\nv4.1:

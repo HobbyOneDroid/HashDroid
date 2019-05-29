@@ -1,40 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent" android:layout_height="wrap_content"
-	android:scrollbarSize="12dip">
-	<LinearLayout android:orientation="vertical"
-		android:layout_width="fill_parent" android:layout_height="fill_parent">
-		<TextView android:id="@+id/InputText1" android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_marginTop="5dip"
-			android:text="@string/input_txt1" />
-		<RelativeLayout android:orientation="horizontal"
-		android:layout_width="fill_parent" android:layout_height="fill_parent">
-		<Button android:id="@+id/ClearButton1" android:text="@string/clear_but"
-			android:layout_height="wrap_content" android:layout_width="wrap_content"
-			android:layout_marginLeft="5dip" 
-			android:layout_alignParentRight="true" />
-		<EditText android:id="@+id/edit_txt1" android:layout_height="wrap_content"
-		  android:layout_width="fill_parent"
-		  android:layout_toLeftOf="@id/ClearButton1"/>
-		</RelativeLayout>
-		<TextView android:id="@+id/InputText2" android:layout_width="fill_parent"
-			android:layout_height="wrap_content" android:layout_marginTop="5dip"
-			android:text="@string/input_txt2" android:layout_below="@id/edit_txt1" />-->
-		<RelativeLayout android:orientation="horizontal"
-		android:layout_width="fill_parent" android:layout_height="fill_parent">
-		<Button android:id="@+id/ClearButton2" android:text="@string/clear_but"
-			android:layout_height="wrap_content" android:layout_width="wrap_content"
-			android:layout_marginLeft="5dip" 
-			android:layout_alignParentRight="true" />
-		<EditText android:id="@+id/edit_txt2" android:layout_height="wrap_content"
-		  android:layout_width="fill_parent"
-		  android:layout_toLeftOf="@id/ClearButton2"/>
-		</RelativeLayout>
-		<Button android:id="@+id/CompareButton" android:text="@string/compare_but"
-			android:layout_width="fill_parent" android:layout_height="wrap_content"/>
-		<TextView android:id="@+id/label_result"
-			android:layout_width="wrap_content" android:layout_height="wrap_content"
-			android:layout_below="@+id/CompareButton" android:textStyle="bold" android:layout_gravity="center"/>
-	</LinearLayout>-->
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarSize="12dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/InputText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="@string/input_txt1" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ClearButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dip"
+                android:text="@string/clear_but" />
+
+            <EditText
+                android:id="@+id/edit_txt1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/ClearButton1" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/InputText2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_txt1"
+            android:layout_marginTop="5dip"
+            android:text="@string/input_txt2" />-->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ClearButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dip"
+                android:text="@string/clear_but" />
+
+            <EditText
+                android:id="@+id/edit_txt2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/ClearButton2" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/CompareButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compare_but" />
+
+        <TextView
+            android:id="@+id/label_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CompareButton"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+    -->
 </ScrollView>
